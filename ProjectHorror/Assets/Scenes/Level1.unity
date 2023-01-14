@@ -173,6 +173,25 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 730081233575008443, guid: f88a5ab6fea63a74ebc007253364711d, type: 3}
+--- !u!1 &525437493 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1133953907410851293, guid: f88a5ab6fea63a74ebc007253364711d, type: 3}
+  m_PrefabInstance: {fileID: 2036182139}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &525437497
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 525437493}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 5735037437880870585, guid: f88a5ab6fea63a74ebc007253364711d, type: 3}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -956,9 +975,29 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -6407541394111320950, guid: f88a5ab6fea63a74ebc007253364711d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 537d82b6e956512459d255d7afc733fd, type: 2}
+    - target: {fileID: -6407541394111320950, guid: f88a5ab6fea63a74ebc007253364711d, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 537d82b6e956512459d255d7afc733fd, type: 2}
+    - target: {fileID: -1777604313891524310, guid: f88a5ab6fea63a74ebc007253364711d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ecfa0e04862d8864aa210a365b9624c4, type: 2}
     - target: {fileID: 919132149155446097, guid: f88a5ab6fea63a74ebc007253364711d, type: 3}
       propertyPath: m_Name
       value: Modern Brick House Split elem _ stairs
+      objectReference: {fileID: 0}
+    - target: {fileID: 4700231723936232901, guid: f88a5ab6fea63a74ebc007253364711d, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7249561836365268054, guid: f88a5ab6fea63a74ebc007253364711d, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f88a5ab6fea63a74ebc007253364711d, type: 3}
